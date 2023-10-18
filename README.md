@@ -1,6 +1,7 @@
 # github-followers
 - Bu eklenti, siz takip ettiğiniz halde sizi takip etmeyen github kullanıcılarını listler.
 - Eklenti web sayfasının DOM'ine erişebildiğinden api, token vs. ihtiyaç duyulmaz.
+- Eklentinin çalışması için github oturumunuzu açmalı ve eklentiyi herhangi bir github sayfasında kullanmalısınız.
 - Eğer yavaş bir internet bağlantısına sahip iseniz popup.js dosyasında
 - 
     ```
