@@ -43,10 +43,14 @@ document.addEventListener("DOMContentLoaded", function () {
           <p><span style="color:red">${index+1} - </span><a href="https://github.com/${element}">${element}</a></p>
           `
         });
+        domDisplay.innerHTML = "";
         domDisplay.innerHTML = result;
         getDOMButton.disabled = false;
         setTimeout(() => {
           delay.innerHTML = counterGlobal;
+          notFollowingYou = [];
+          followingData = [];
+          followersData = [];
         }, 500);
     }, 1000 * counterGlobal);
   });

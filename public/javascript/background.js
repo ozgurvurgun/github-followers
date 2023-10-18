@@ -27,6 +27,8 @@ chrome.runtime.onMessage.addListener((message, _sender, sendResponse) => {
         i++;
       }
       sendResponse(user);
+      user.followingData = [];
+      spanContents = [];
     };
     getFollowersData();
   }
@@ -54,6 +56,8 @@ chrome.runtime.onMessage.addListener((message, _sender, sendResponse) => {
         i++;
       }
       sendResponse(user);
+      user.followersData = [];
+      spanContents = [];
     };
     getFollowersData();
   }

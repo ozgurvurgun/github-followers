@@ -5,16 +5,16 @@
     "description": "Github Followers App",
     "permissions": ["activeTab"],
     "icons": {
-      "16": "icon16.png",
-      "32": "icon32.png",
-      "48": "icon48.png",
-      "128": "icon128.png"
+      "16": "public/image/icon16.png",
+      "32": "public/image/icon32.png",
+      "48": "public/image/icon48.png",
+      "128": "public/image/icon128.png"
     },
     "action": {
       "default_popup": "popup.html"
     },
     "background": {
-      "service_worker": "background.js"
+      "service_worker": "public/javascript/background.js"
     }
   }
   
