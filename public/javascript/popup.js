@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const findDifferentValues = (followingData, followersData) => [
           ...followingData.filter(user => !followersData.includes(user)),
         ];
-        const notFollowingYou = findDifferentValues(followingData, followersData);
+        let notFollowingYou = findDifferentValues(followingData, followersData);
         let result ="";
         notFollowingYou.forEach((element, index)=> {
           result += `
