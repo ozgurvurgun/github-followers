@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Github Followers</title>
+    <style>
+      .container {
+        width: 400px;
+        max-width: 400px;
+        overflow-x: hidden;
+        overflow-y: auto;
+        position: relative;
+      }
+      h1 {
+        text-align: center;
+        color: powderblue;
+      }
+      h3{
+        color: red;
+        text-align: center;
+        padding: 5px;
+      }
+      input {
+        width: 200px;
+        height: 20px;
+        display: block;
+        margin: auto;
+      }
+      button {
+        padding: 10px;
+        font-size: 17px;
+        margin: auto;
+        display: block;
+        margin-top: 15px;
+      }
+      #domDisplay {
+        text-align: center;
+      }
+
+      #domDisplay p{
+        font-size: 18px;
+        font-weight: 600;
+      }
+      .delay-container{
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        background-color: rgba(128, 128, 128, 0.5);
+        width: 40px;
+        height: 40px;
+        display: flex;
+        border-radius: 50%;
+        align-items: center;
+        justify-content: center;
+      }
+      #delay{
+        color: black;
+        font-size: 16px;
+        display: flex;
+      }
+
+      ::-webkit-scrollbar {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Github Followers</h1>
+      <input value="ozgurvurgun" id="username" placeholder="github username" type="text" />
+      <button  id="getDOMButton">Search</button>
+      <h3>Unfollowers</h3>
+      <div id="domDisplay"></div>
+     <div class="delay-container"><p id="delay"></p></div>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
