@@ -15,3 +15,4 @@
 
 - Eklentiyi Nasıl Kurarım (chrome) ?
     - <span style="font-size:25px">&vellip;</span> &nbsp; &#x22B3; &nbsp; diğer araçlar &nbsp; &#x22B3; &nbsp; uzantılar &nbsp; &#x22B3; &nbsp; paketlenmiş öğe yükle
+- 1.0 sürümünde takipçi sayısı az olan kullanıcılar gereksiz bekliyor olabilir. Sonraki sürüm de kullanıcının İnternet hızına göre makul hesaplama süresi otomatik olarak atanacak.
